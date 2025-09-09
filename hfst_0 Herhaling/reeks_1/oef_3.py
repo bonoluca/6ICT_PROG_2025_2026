@@ -1,5 +1,7 @@
 def kwadraat(x):
     """ return het kwadraat van x """
+    som = x * x
+    return som
 
 
 print( kwadraat(3) )    # 9

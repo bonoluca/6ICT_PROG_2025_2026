@@ -2,6 +2,8 @@ def oppervlakte_kubus(z):
     """ print de oppervlakte van een kubus met zijde z 
             Tip! Een kubus heeft 6 vlakken
     """
+    
+    
 
 
 oppervlakte_kubus(4)    # 96
