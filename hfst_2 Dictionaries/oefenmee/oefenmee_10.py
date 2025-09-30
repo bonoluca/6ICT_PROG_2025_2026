@@ -21,22 +21,22 @@ dictionary = {
 # " Vul aan: die neemt e en vrevangt 3 met 4 " #corectie die print 3 omdat die gaat kijken als e in de dictionairy zit als die er niet inzit dan print die 4 
 # print( dictionary.get("e", 4))
 
-" Vul aan: die neemt alle waarde en zet die in een lijst [0, 1, 1, 2, 3] "
-print( list(dictionary.values()))
+# " Vul aan: die neemt alle waarde en zet die in een lijst [0, 1, 1, 2, 3] "
+# print( list(dictionary.values()))
 
-# " Vul aan: "
+# " Vul aan: die gaat q zoeken e als die die vind gaat die de waarde ervan print anders print die 4"
 # print( dictionary.get("q", 4))
 
-# " Vul aan: "
+# " Vul aan: die gaat de dictionary printen sleutle , waarde "
 # for x, y in dictionary.items():
 #     print(y, x)
 
-# " Vul aan: "
+# " Vul aan: die print alle waardes uit dus allen 0,1,1,2,3,"
 # for x in dictionary.values():
 #     print(x)
 
-# " Vul aan: "
+# " Vul aan: DIE VERWIJDERD C uit de dictonairy en print de waarde ervan uit dus 1"
 # print( dictionary.pop("c"))
 
-# "Vul aan: "
-# print( list(dictionary.items()) )
+"Vul aan: die print de dictonairy met de waarde en sleutels in een lijst "
+print( list(dictionary.items()) )
