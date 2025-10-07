@@ -13,8 +13,8 @@ print(recept)
 # print("Recept voor worst met wortelen en erwten.")
 
 
-# for sleutel, waarde in recept.items():
-#     print(sleutel,waarde)
+for sleutel, waarde in recept.items():
+    print(sleutel,waarde)
 
 # Print de zin "Recept voor worst met wortelen en erwten."
 
@@ -35,6 +35,7 @@ print(recept)
 
 
 # niveau2
+
 vraag_naar_hvl_man = int(input('voor hoeveel man wil je dit recept klaar maken '))
 schaal = vraag_naar_hvl_man / 4
 print("Recept voor gehakt met wortelen en erwten.")
