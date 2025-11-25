@@ -1,3 +1,6 @@
+import test_module
+
+
 "Maak zelf een dictionary aan. Deze bevat minstens 3 elementen (key-value pairs). "
 "Kies zelf het onderwerp van de dictionary. Dit kan bijvoorbeeld een film linken aan zijn reviewscore."
 films = {

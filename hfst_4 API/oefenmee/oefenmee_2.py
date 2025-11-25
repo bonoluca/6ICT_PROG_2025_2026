@@ -9,3 +9,7 @@ print("#"*40) # Scheiding in opdrachtprompt
 
 response_json = response.json()
 print(response_json["updated"]) # Print tijd van update.
+
+
+#oplossing 
+print(response_json["updated_at"])  # Print tijd van update
