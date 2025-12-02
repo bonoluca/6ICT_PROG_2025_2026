@@ -11,3 +11,15 @@ Advies 3:
     Print || No advice slips found matching that search term.
 
 """
+
+import requests , json 
+
+query = input("Topic for advice: ")
+response_json = requests.get(f"https://api.adviceslip.com/advice/search/{query}").json()
+
+with open (r"6ICT_PROG_2025_2026\hfst_4 API\opdrachten\opdrachten.json", "w") as fp:
+    json.dump(response_json, fp)
+    print("Data gedumpt!")
+
+print(response_json["slips"][0]["advice"] )
+

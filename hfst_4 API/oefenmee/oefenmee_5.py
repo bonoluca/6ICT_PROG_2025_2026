@@ -9,3 +9,12 @@ if ("joke" in response_json):
 else:
     print(response_json["setup"])    # De setup
     print(response_json["delivery"]) # De punchline
+
+
+with open(, "w") as fp:
+    (response_json, fp)
+
+
+# Niveau 1
+# Schrijf de response weg naar een JSON-bestand kies de naam zelf. Bekijk de structuur ervan. Waarom is het nodig om met de if-else te werken in de code?
+
