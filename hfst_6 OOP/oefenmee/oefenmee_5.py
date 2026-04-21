@@ -1,4 +1,6 @@
 # Doorloop de code in debug-mode. Wanneer wordt er in __init__ gesprongen?
+
+#zodra je Kat oproept
 class Kat:
     def __init__(self, naam:str, leeftijd:int) -> None:
         self.naam = naam
