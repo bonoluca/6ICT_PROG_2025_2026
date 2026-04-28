@@ -21,14 +21,14 @@ class Hond:
     def weegschaal(self) -> None:
         print(f"{self.naam} weegt {self.massa} kg")
     
-    def wijzig_naam(self, naam:str ):
+    def wijzig_naam(self, naam:str ) ->None:
         oude_naam = self.naam
         self.naam = naam 
         print(f"de hond zijn naam is van {oude_naam} naar {self.naam} gegaan")
     
     def eten(self ,hoeveelheid:float)-> None:
-        self.massa = self.massa + hoeveelheid
-        print(f"de nieuwe massa van {self.naam} is {self.massa}")
+        self.massa = self.massa + hoeveelheid * 0.3
+        print(f"de nieuwe massa van {self.naam} is {round(self.massa, 2)}")
 
 
 # Niveau 1
@@ -41,6 +41,7 @@ hond.wijzig_naam("Bolly")
 
 " Via onderstaande code kan je niveau 2 testen. "
 hond = Hond("Lucky", 5, 5, "?")
+hond.wijzig_naam("Bolly")
 hond.eten(0.5)
 hond.eten(0.5)
 hond.eten(0.5)
@@ -74,6 +75,12 @@ hond.eten(0.5)
 
 # Niveau 3
 # Maak een andere object van de klasse Hond aan (VB. hond_2).  De waarden van de eigenschappen kies je zelf (VB. 'Fleur' en 8). Voer voor dit object opnieuw 3x de methode eten uit. De waarde van hoeveelheid is 0.5.
+
+hond_2 = Hond("Fleur", 8, 11,"?")
+
+hond_2.eten(0.5)
+hond_2.eten(0.5)
+hond_2.eten(0.5)
 
 # Niet al het eten zal bijdragen aan de massa van de hond. Slechts 30% van de hoeveelheid voer zal effectief omgezet worden naar massa. 
 
