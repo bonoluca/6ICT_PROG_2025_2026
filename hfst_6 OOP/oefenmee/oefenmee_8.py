@@ -21,3 +21,13 @@ hond = Hond("Fido", 8)
 paspoort = hond.genereer_paspoort()
 print(paspoort) # Naam: Fido - Gewicht: 8 kg
 
+
+
+
+# # setup pin 7 & 31 as output
+# GPIO.setup(7, GPIO.OUT)
+# GPIO.setup(31, GPIO.OUT)
+
+# # Turn on pin 7 & 31
+# GPIO.output(7, GPIO.HIGH)
+# GPIO.output(31, GPIO.HIGH)
